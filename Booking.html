@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking</title>
+    <link rel="stylesheet" href="./Booking.css">
+    
+</head>
+
+<body class="main_bg">
+    <div class="form">
+        <div class="form-text">
+            <h1><span><img src="./imgs/art-1.png" alt=""></span> Book Your Table Now <span><img src="./imgs/art-1.png" alt=""></span></h1>
+            <h3>Delicious food is waiting for you</h3>
+        </div>
+        <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span>Your full name ?</span>
+                    <input type="text" name="name" id="name" placeholder="Write your name here..." required>
+                </div>
+                <div>
+                    <span>Your email address ?</span>
+                    <input type="email" name="name" id="name" placeholder="Write your email here..." required> 
+                </div>
+                <div>
+                    <span>How many people ?</span>
+                    <input type="number" placeholder="How many people?" min="1" max="10">
+                </div>
+                <div>
+                    <span>What time ?</span>
+                    <select name="Time">
+                        <option value="Time_select">Select Time</option>
+                        <option value="9AM">09:00 AM</option>
+                        <option value="10AM">10:00 AM</option>
+                        <option value="11AM">11:00 AM</option>
+                        <option value="12AM">12:00 AM</option>
+                        <option value="1PM">01:00 PM</option>
+                        <option value="2PM">02:00 PM</option>
+                        <option value="3PM">03:00 PM</option>
+                        <option value="4PM">04:00 PM</option>
+                        <option value="5PM">05:00 PM</option>
+                        <option value="6PM">06:00 PM</option>
+                        <option value="7PM">07:00 PM</option>
+                        <option value="8PM">08:00 PM</option>
+                        <option value="9PM">09:00 PM</option>
+                        <option value="10PM">010:00 PM</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <span>What is the date ?</span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div>
+                <div>
+                    <span>Your phone number ?</span>
+                    <input type="number" name="number" id="number" placeholder="Write your number here..." required>
+                </div>
+               
+                <div id="submit">
+                    <input type="submit" value="Book Table" id="submit">
+                </div>
+                    
+                
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
