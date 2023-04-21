@@ -1,0 +1,16 @@
+
+# Guide for Restaurant's management team to know How To use form.
+
+It is a simple Form for costumer to fill. 
+Restaurant management team will get table booking  data of costumer.
+
+Costumer Data:
+#Costumer name
+#Costumer email address
+#How many people coming to restaurant.
+#On what time costumer will come
+#On which Date 
+#Costumer Mobile number
+
+This information of table booking can useful for 
+Restaurant management team to be ready and to serve better. 
